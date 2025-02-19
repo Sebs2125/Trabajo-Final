@@ -14,6 +14,36 @@ public class Ruta
         this.distancia = distancia;
     }
 
-    //Funciona git
+    public Parada getDestino() {
+        return destino;
+    }
+
+    public void setDestino(Parada destino) {
+        this.destino = destino;
+    }
+
+    public int getTiempo() {
+        return tiempo;
+    }
+
+    public void setTiempo(int tiempo) {
+        this.tiempo = tiempo;
+    }
+
+    public int getCosto() {
+        return costo;
+    }
+
+    public void setCosto(int costo) {
+        this.costo = costo;
+    }
+
+    public int getDistancia() {
+        return distancia;
+    }
+
+    public void setDistancia(int distancia) {
+        this.distancia = distancia;
+    }
 
 }

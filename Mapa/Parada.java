@@ -1,12 +1,17 @@
 public class Parada
 {
-    private String parada;
+    private String nombre;
 
-    public Parada ( String parada )
+    public Parada ( String nombre )
     {
-        this.parada = parada;
+        this.nombre = nombre;
     }
 
-    //Ya funciona en git
+    public String getNombre() {
+        return nombre;
+    }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
