@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Mapa/Mapa.iml" filepath="$PROJECT_DIR$/Mapa/Mapa.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Trabajo-Final.iml" filepath="$PROJECT_DIR$/.idea/Trabajo-Final.iml" />
     </modules>
   </component>

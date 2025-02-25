@@ -9,7 +9,7 @@ public class Transporte
     private Map<String, Integer> mapaIndice;
     private int cantVertices = 0;
 
-    public Grafo ()
+    public void Grafo ()
     {
         listaAdyacencia = new ArrayList<>();
         mapaVertice = new HashMap<>();
@@ -23,7 +23,7 @@ public class Transporte
         if ( !mapaVertice.containsKey( Letra ) )
         {
             mapaVertice.put( Letra, cantVertices );
-            mapaIndice.put( cantVertices, Letra );
+            mapaIndice.put(Letra, cantVertices);
             listaAdyacencia.add( new ArrayList<>() );
             cantVertices++;
         }
@@ -83,8 +83,8 @@ public class Transporte
             Integer destinoInd = mapaVertice.get( destino );
             listaAdyacencia.get( inicioInd ).remove( destinoInd );
             listaAdyacencia.get( destinoInd ).remove( inicioInd );
-            listaAdyacencia.get( inicioInd ).add( nuevoInicio );
-            listaAdyacencia.get( destinoInd ).add( nuevoInicio );
+            listaAdyacencia.get( inicioInd ).add(Integer.valueOf(nuevoInicio));
+            listaAdyacencia.get( destinoInd ).add(Integer.valueOf(nuevoInicio));
 
         }
     }
